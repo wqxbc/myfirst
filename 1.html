@@ -16,12 +16,18 @@
         本地仓库的提交命令是
         git add .
         git commit -m "文件描述"
+        git reset --hard 版本号 可以回退到最近的版本
+        git reflog 查看所有提交过得日志
+        <!-- .gitignore文件是git忽视文件 里面可以写一些文件名 包含在内的文件会被git所忽略 -->
         ---------------
         提交到远程git的方式是
         git push 地址 master
+        <!-- git会在本地创建一个变量用来保存地址 变量名就是origin -->
+        git push origin master
         ----------------
         拉取更新是
         git pull 地址 master
+
     </div>
 </body>
 
